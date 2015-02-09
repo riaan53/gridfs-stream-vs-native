@@ -4,7 +4,8 @@ Note that repetitive runs on native mongodb streams using the same db and filena
 
 Here are some example runs.. (min:seconds.milliseconds):
 
-Run1 (97.5 MB):
+###Run1 (97.5 MB):
+```
 ------gridfs-stream------
 writestream file to GridStore in: 0:2.445
 { _id: 54d92a55866f89205658910d,
@@ -32,9 +33,10 @@ writestream native file to GridStore in: 0:2.657
 done readstream native
 readstream native file from GridStore in: 0:0.448
 ------end------
+```
 
-
-Run2 (97.5 MB):
+###Run2 (97.5 MB):
+```
 ------gridfs-stream------
 writestream file to GridStore in: 0:2.615
 { _id: 54d92aa9affea531566a56ad,
@@ -62,9 +64,10 @@ writestream native file to GridStore in: 0:2.563
 done readstream native
 readstream native file from GridStore in: 0:0.524
 ------end------
+```
 
-
-Run3 (10 GB)
+###Run3 (10 GB)
+```
 ------gridfs-stream------
 writestream file to GridStore in: 5:25.578
 { _id: 54d92c13fea64d6656a4ba58,
@@ -92,6 +95,6 @@ writestream native file to GridStore in: 6:55.306
 done readstream native
 readstream native file from GridStore in: 1:57.978
 ------end------
-
+```
 
 PS: Sorry for the code/callback mess - just a quick comparison example :)
